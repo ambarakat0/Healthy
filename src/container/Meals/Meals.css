@@ -1,0 +1,77 @@
+.Container {
+	display: grid;
+	grid-template-rows: 10rem minmax(5rem, 15rem) 1fr 5rem;
+	padding: 3rem 6rem;
+}
+
+.Error {
+	justify-self: center;
+	align-self: center;
+	font-size: 2rem;
+	color: salmon;
+}
+
+.Saving {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Meals {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	grid-gap: 5rem;
+	list-style: none;
+	padding: 3rem 0;
+}
+
+.Search {
+	justify-self: center;
+	align-self: center;
+	display: flex;
+}
+
+.Search:focus {
+	transform: translateY(-2px);
+	box-shadow: 0 0.7rem 3rem rgba(#615551, 0.08);
+}
+
+.Input {
+	background-color: rgb(243, 243, 243);
+	border: none;
+	padding: 1rem;
+	padding-left: 2rem;
+	border-radius: 25px;
+	font-family: inherit;
+	color: rgb(124, 122, 122);
+	font-size: 2rem;
+	width: 50rem;
+	transition: all 0.3s;
+}
+
+.Input:focus {
+	outline: none;
+	width: 70rem;
+}
+
+.Input::placeholder {
+	color: #d3c7c3;
+}
+
+.Button {
+	transform: translateX(-6rem);
+}
+
+.PaginationBtnContainer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.PaginationBtnNext {
+	margin-left: 'auto';
+}
+
+.PaginationBtnPrev {
+	margin-right: auto;
+}

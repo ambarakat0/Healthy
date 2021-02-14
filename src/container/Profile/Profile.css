@@ -1,0 +1,26 @@
+.DataContainer {
+	background-color: rgb(245, 245, 245);
+	padding: 3rem;
+	width: 60vw;
+	margin: 2rem auto;
+}
+
+.FavMealsMealsContainer {
+	text-align: center;
+}
+
+.FavMealsMealsHeading {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: #f87400;
+	text-transform: uppercase;
+}
+
+.FavMealsMeals {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 40rem));
+	justify-content: center;
+	grid-gap: 5rem;
+	list-style: none;
+	padding: 3rem 0;
+}

@@ -1,0 +1,50 @@
+.DataContainerInvisible {
+	visibility: hidden;
+	display: none;
+}
+
+.DataContainerVisible {
+	background-color: rgb(240, 240, 240);
+	padding: 1rem 3rem;
+	border-radius: 3px;
+	visibility: visible;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Heading {
+	font-size: 3rem;
+	color: #f87400;
+	font-weight: 300;
+}
+
+.Heading:after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	padding: 1rem;
+	border-bottom: 4px dotted #f87400;
+}
+
+.TextContainer {
+	background-color: #fafafa4f;
+}
+
+.TextContainer h3 {
+	font-size: 2rem;
+	color: #2b2b2b;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+
+.TextContainer p {
+	font-size: 1.5rem;
+	color: #f87400;
+	font-weight: 300;
+}
+
+.Button {
+}

@@ -1,0 +1,18 @@
+.NavigationItem {
+  display: block;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+.NavigationItem a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: all .2s;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: #ffd901;
+}

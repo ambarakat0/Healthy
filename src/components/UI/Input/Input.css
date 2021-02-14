@@ -1,0 +1,21 @@
+.Input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: rgb(90, 88, 88);
+  background-color: rgba(255, 255, 255, 0.808);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.Input:focus {
+  border-bottom: 3px solid #f87400;
+}
+
+.Invalid {
+  border-bottom: 3px solid #fc1919;
+  background-color: salmon;
+}

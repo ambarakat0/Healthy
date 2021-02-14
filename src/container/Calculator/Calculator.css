@@ -1,0 +1,22 @@
+.Container {
+	display: grid;
+	width: 50vw;
+	grid-template-rows: repeat(2, 1fr);
+	grid-row-gap: 3rem;
+	margin: auto;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.ContentBox {
+	background-color: rgb(228, 227, 227);
+	padding: 1rem 3rem;
+	border-radius: 3px;
+}
+
+.Heading {
+	font-size: 4rem;
+	color: #f87400;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
