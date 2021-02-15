@@ -8,7 +8,6 @@ import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 
 import { LoadRecipe } from '../../context/loadRecipe-context';
-import { token } from '../../context/auth-context';
 
 import classes from './Profile.css';
 
