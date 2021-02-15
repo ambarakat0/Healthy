@@ -96,7 +96,7 @@ const calculator = (props) => {
 		},
 	});
 
-	const [_, setIsValidForm] = useState(false);
+	const setIsValidForm = useState(false)[1];
 	const [isDisable, SetIsDisable] = useState(true);
 
 	const [inputData, setInputData] = useState({
