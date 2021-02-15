@@ -11,7 +11,7 @@ configureMealsStore();
 
 ReactDOM.render(
 	<AuthProvider>
-		<BrowserRouter>
+		<BrowserRouter basename="/amb">
 			<App />
 		</BrowserRouter>
 	</AuthProvider>,
